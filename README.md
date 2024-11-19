@@ -88,6 +88,7 @@ input[1:0]s;
 output y;
 assign y=(~s[1]&~s[0]&a)|(~s[1]&s[0]&b)|(s[1]&~s[0]&c)|(s[1]&s[0]&d);
 endmodule
+
 ![image](https://github.com/user-attachments/assets/4104619e-06b3-444f-bb6c-4459e0f374bb)
 
 4:1 MUX Behavioral Implementation
